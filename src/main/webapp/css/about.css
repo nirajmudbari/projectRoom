@@ -1,0 +1,25 @@
+
+
+.navigation-clean-search.navbar-light .navbar-nav .nav-link {
+	color: #1e85da;
+}
+
+.container{
+    	width:100%;
+    	background: white;
+    	height:100px;
+    	margin-top:0px;
+    	margin-right: 100px;
+    	margin-left: 50 px; 
+    	opacity: 0.6;
+}
+body{
+	margin:0;
+	
+	background-size:cover;
+	background-color: white;
+    }
+
+div {
+    display: block;
+}

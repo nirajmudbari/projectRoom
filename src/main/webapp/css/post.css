@@ -1,0 +1,194 @@
+
+.radio-container {
+    clear: both;
+    height: 44px;
+}
+div {
+    display: block;
+}
+body {
+     font-size: 14px;
+    font-family: Lato,Helvetica,Arial,sans-serif;
+    
+}
+.header-content {
+    position: relative;
+    margin: auto;
+    box-sizing: border-box;
+    background-color: #2574a9;
+    height: inherit;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+.header {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 110px;
+    background-color: #2574a9;
+    color: #fff;
+    font-family: Lato,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+body {
+    padding: 0;
+    margin: 0;
+    position: relative;
+    box-sizing: border-box;
+    background-color: #f5f5f5;
+    font-size: 14px;
+    font-family: Lato,Helvetica,Arial,sans-serif;
+    color: #555;
+    -webkit-font-smoothing: antialiased;
+    min-height: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+html {
+    min-height: 100%;
+    height: 100%;
+    font-size: 100%;
+}
+.box-content{
+    text-align:middle; 
+}
+hr{
+
+   color: red;
+   width: 100%;
+   height: 20px;
+   line-height: 60px;
+   
+
+}
+.form-group{
+    box-sizing: 50px;
+    width: 30%;
+    align-self: 10px;
+    line-height: 45px;
+}
+custom-select {
+  position: relative;
+  font-family: Arial;
+}
+.custom-select select {
+  display: none; 
+}
+.select-selected {
+  background-color: DodgerBlue;
+}.select-selected:after {
+  position: absolute;
+  content: "";
+  top: 14px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-color: #fff transparent transparent transparent;
+}
+.select-selected.select-arrow-active:after {
+  border-color: transparent transparent #fff transparent;
+  top: 7px;
+}
+.select-items div,.select-selected {
+  color: #ffffff;
+  padding: 8px 16px;
+  border: 1px solid transparent;
+  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+  cursor: pointer;
+}
+.select-items {
+  position: absolute;
+  background-color: DodgerBlue;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+
+.select-hide {
+  display: none;
+}
+.select-items div:hover, .same-as-selected {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.form-group{
+ margin-left: 400px;
+
+}
+
+.container {
+  display: block;
+  position: relative;
+  padding-left: 45px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  text-align: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 20px;
+  background-color: #eee;
+  margin-left: 380px;
+}
+
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+.container input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+
+.container .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+
+
+
+
+
+
+
+
+
